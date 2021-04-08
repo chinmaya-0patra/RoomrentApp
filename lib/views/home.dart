@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oyoapp/screens/apiScreen.dart';
 import '../models/room.dart';
 import '../providers/theme_provider.dart';
 import '../widgets/popular_place_card.dart';
@@ -82,7 +83,17 @@ class _HomeState extends State<Home> {
                 onTap: () async {
                   await _auth.signOut();
                 },
-              )
+              ),
+              ListTile(
+                title: Text("Employee"),
+                trailing: Icon(Icons.person),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (BuildContext context) => NewPage()));
+                },
+              ),
             ],
           ),
         ),
