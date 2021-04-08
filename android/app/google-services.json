@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482033134099",
+    "project_id": "oyoapp-3325c",
+    "storage_bucket": "oyoapp-3325c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482033134099:android:4676f5fc5dde6ad0556de6",
+        "android_client_info": {
+          "package_name": "com.example.oyoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482033134099-t8k9etmn2gk352sqrbndflprpjjljqul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5os4pVRfndx9orUUPcW5hBQT07YpRwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482033134099-t8k9etmn2gk352sqrbndflprpjjljqul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
